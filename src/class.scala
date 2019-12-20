@@ -8,6 +8,9 @@ object PlayGround {
   }
 }
 
+// Classと継承
+// 複数クラスの継承不可 => 代わりにtraitのmix-in
+
 abstract class Shape {
   def draw(): Unit = {
     println("不明な図形")

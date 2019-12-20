@@ -5,6 +5,7 @@ object PlayGround {
   }
 }
 
+// トレイトを複数合成(mix-in)してクラスを作る
 
 class Employee(val name: String) extends AnyRef with Namable
 
