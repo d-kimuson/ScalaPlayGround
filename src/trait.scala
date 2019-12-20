@@ -1,6 +1,6 @@
 object PlayGround {
   def main(args: Array[String]): Unit = {
-    val e1 = new Employee(name = "Taro")
+    val e1 = new Employee("Taro")
     e1.display()
   }
 }
