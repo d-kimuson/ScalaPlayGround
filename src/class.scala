@@ -19,8 +19,8 @@ abstract class Shape {
 
 class Triange extends Shape {
   override def draw(): Unit = {
-      println("三角形")
-    }
+    println("三角形")
+  }
 }
 
 class UnknownShape extends Shape

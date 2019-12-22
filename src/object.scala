@@ -1,9 +1,9 @@
 object PlayGround {
   def main(args: Array[String]): Unit = {
-    val p1 = Point(10, 20)  // new Point(10, 20) より簡潔
+    val p1 = Point(10, 20) // new Point(10, 20) より簡潔
     p1.print()
 
-    Point.help()            // static(class) method
+    Point.help() // static(class) method
   }
 }
 
@@ -26,6 +26,7 @@ class Point(val x: Int, val y: Int) {
 
 object Point {
   // apply は 関数 っぽい呼び出しで呼ばれる
+  // class でも(staticじゃないメソッドでも) applyは使える
   def apply(x: Int, y: Int) = {
     new Point(x, y)
   }
