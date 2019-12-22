@@ -19,8 +19,6 @@ object PlayGround {
     matchGuard(List("A", "C", "E", "G", "I"))
 
     println(last2(List("A", "B", "C", "D", "E")))
-
-
   }
 
   def intMatchSample(i: Int): Unit = {
